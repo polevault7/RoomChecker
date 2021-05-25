@@ -37,4 +37,4 @@ GET http://localhost:8080/users/check?userId=6&roomId=3
 
 ###
 
-GET project-license-number.herokuapp.com/numbers/generateRandom
+GET project-room-checker.herokuapp.com/users/check?userId=6&roomId=3
