@@ -11,3 +11,21 @@ GET http://localhost:8080/rooms
 ###
 
 GET http://localhost:8080/rooms/3
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "Bars",
+  "room": {
+    "id": 2
+  }
+}
+
+
+###
+
+GET http://localhost:8080/users/check?userId=6&roomId=3
