@@ -4,6 +4,6 @@ import lombok.Value;
 
 @Value
 public class Room {
-    long id;
-    String name;
+  long id;
+  String name;
 }
